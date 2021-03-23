@@ -19,15 +19,16 @@ Gloobal CSS===========
     padding: 80px 0;
 }
 .section-title h2{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     color: var(--black-500);
-    padding: 50px 0;
+    padding-top: 50px;
 }
 .section-title p{
     font-size: 14px;
     font-weight: 300;
     color: var(--black-500);
+    padding-bottom: 50px;
 }
 *{
     margin: 0;
@@ -277,7 +278,7 @@ pricing section ===
     background-color: #e7e8fe;
 }
 .price-item{
-    padding: 40px 10px;
+    padding: 30px 10px;
     border: 1px solid rgba(0,0,0,0.2);
     padding-bottom: 50px;
     transition: all 0.5s ease;
@@ -335,3 +336,49 @@ pricing section ===
     background-color: #505cfd;
     color: var(--white);
 }
+
+/* == 
+review-section ====
+==================== */
+.review-section{
+    background-color: #505cfd;
+}
+.review-item{
+    padding: 80px 0;
+}
+.review-item img{
+    height: 30px;
+    width: auto;
+}
+.review-item h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--white);
+    padding-top: 10px;
+}
+.review-item p{
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+/* =====
+team-section ===
+===============
+ */
+
+ .team-section{
+     width: 100%;
+     margin: 0;
+ }
+ .team-img img{
+     height: 400px;
+     max-width: 100%;
+     position: relative;
+ }
+ .team-img .text p{
+     position: absolute;
+ }
+ .team-img img:hover{
+     
+ }
