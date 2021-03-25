@@ -36,9 +36,10 @@ Gloobal CSS===========
 }
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
-/* ========= header section =
+/* ========= header section ==
 ==========================
 ========= */
 .header-section{
@@ -371,14 +372,72 @@ team-section ===
      width: 100%;
      margin: 0;
  }
+ .team-img{
+    height: 400px;
+    max-width: 100%;
+    position: relative;
+ }
  .team-img img{
-     height: 400px;
-     max-width: 100%;
-     position: relative;
+    display: block;
  }
- .team-img .text p{
+ .img-overlay{
      position: absolute;
+     top: 60%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color:  rgba(211, 219, 221, 0.465);
+     text-align: center;
+     width: 400px;
+     height: 400px;
+     color: var(--black-900);
+     opacity: 0;
+     transition: all 0.5s ease;
+     border-radius: 20px;
  }
- .team-img img:hover{
-     
+ .team-img :hover{
+     opacity: 1;
+ }
+ .img-overlay-text{
+    position: absolute;
+    top:35%;
+    left:30%;
+    transform: translateY(-50,-50);
+    text-align: center;
+    justify-content: center;
+    display: block;
+ }
+
+ /* ====
+ blog section =======
+ =============== */
+
+ .blog-item{
+     padding: 20px 15px;
+ }
+ .blog-img{
+     padding-bottom: 10px;
+ }
+ .blog-img img{
+     max-width: 100%;
+ }
+ .blog-body .blog-title h3{
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--black-500);
+    padding: 5px 0;
+ }
+ .blog-body span{
+     font-size: 17px;
+     font-weight: 300;
+ }
+ .blog-body p{
+     font-size: 15px;
+     font-weight: 300;
+     padding: 20px 0;
+ }
+ .blog-footer a{
+     font-size: 15px;
+     font-weight: 600;
+     color: var(--black-500);
+     text-decoration: none;
  }
