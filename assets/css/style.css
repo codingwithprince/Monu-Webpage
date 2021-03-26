@@ -441,3 +441,38 @@ team-section ===
      color: var(--black-500);
      text-decoration: none;
  }
+
+ /* === team carousel =
+ ===========
+ =================== */
+
+ .team-carousel{
+     background-image: url('../images/carosel-team-bg.jpg');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: relative;
+     margin: 0;
+ }
+
+ .carousel-item{
+     background-color: #fffafabe;
+     padding: 120px 0;
+ }
+ .carousel-item-header h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--main-color);
+ }
+ .carousel-item-header p{
+     font-size: 15px;
+     font-weight: 500;
+     color: var(--black-500);
+ }
+ .carousel-item-body p{
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--black-500);
+    text-transform: capitalize;
+    padding: 10px 20px;
+ }
