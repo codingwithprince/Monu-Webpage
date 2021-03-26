@@ -476,3 +476,89 @@ team-section ===
     text-transform: capitalize;
     padding: 10px 20px;
  }
+
+ /* == 
+ footer img icon ==
+ ============= */
+ .footer-icon-img{
+     padding: 20px;
+ }
+ .footer-icon-img img{
+     height: 180px;
+     width: 200px;
+     padding: 15px 20px;
+     margin: 50px;
+ }
+
+
+ /* ======
+ footer section ====
+ =========== */
+ .footer-section{
+     background-color: #343434;
+ }
+
+ .l-item,.m-item{
+     padding: 8px;
+     margin: 10px;
+     color: var(--white);
+ }
+ .l-item-header,.m-item-header h3{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px 0;
+ }
+ .l-item-body ul{
+     text-align: left;
+ }
+ .l-item-body ul li{
+     list-style: none;
+     font-size: 14px;
+     font-weight: 300;
+     padding: 5px 0;
+     color: var(--black-300);
+ }
+ .m-item-body ul li{
+    list-style: square;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px 0;
+    color: var(--black-300);
+}
+.sale-item img{
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+}
+.sale-text p{
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: 300;
+    color: var(--black-300);
+}
+.sale-text span{
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--black-300);
+}
+.upper-footer{
+    padding-bottom: 50px;
+    border-bottom: 1px solid var(--black-300);
+}
+.lower-footer p{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--black-300);
+    padding-top: 50px;
+}
+.links{
+    padding-top: 50px;
+    float: right;
+}
+.links a{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--black-300);
+    padding-right: 40px;
+}
