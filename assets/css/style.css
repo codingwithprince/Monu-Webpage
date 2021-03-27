@@ -54,6 +54,12 @@ body{
     padding-bottom: 10px;
     border-bottom: 1px solid var(--black-300);
 }
+.navbar-toggler .fa-bars{
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--black-500);
+    box-shadow: 2px 10px 20px rgba(0,0,0,0.07);
+}
 .navbar-nav li{
     padding: 20px 20px;
 }

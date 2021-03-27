@@ -1,0 +1,362 @@
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/* === global === */
+    .section-padding{
+        padding: 50px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+    /* ======= header section ======= */
+    .main-text {
+        padding: 100px 0;
+        margin: 0;
+    }
+    .main-text h2{
+        font-size: 50px;
+        font-weight: 600;
+        padding-bottom: 15px;
+        color: var(--black-500);
+        opacity: 90%;
+    }
+    .main-text p{
+        font-size: 13px;
+        font-weight: 300;
+        color: var(--black-300);
+        padding-bottom: 30px;
+    }
+    .main-text a{
+        background-color: transparent;
+        color: var(--black-500);
+        padding: 10px 30px;
+        border: 1px solid var(--main-color);
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+        transition: all 0.5s ease;
+    }
+    /* ===== desctrioption item ===== */
+    .des-item{
+        padding: 15px;
+        margin: 5px;
+    }
+    .des-item img{
+        height: 25px;
+        width: 25px;
+    }
+    .des-item h3{
+        color: var(--white);
+        font-size: 15px;
+        font-weight: 500;
+        padding-top: 15px;
+    }
+    .des-item p{
+        color: var(--white);
+        font-size: 10px;
+        font-weight: 300;
+        padding-top: 15px;
+    }
+	/* =======sign up fom =========  */
+    .sign-up-form form{
+        display: flex;
+    }
+    .sign-up-form input{
+        width: 180px;
+        font-size: 10px;
+        font-weight: 300;
+        color: var(--black-500);
+        padding: 10px 15px;
+        border-radius: 30px;
+        border-style: none;
+        margin: 10px;
+        box-shadow: 1px 2px 20px rgba(0,0,0,0.5);
+    }
+    .sign-up-form  a{
+        font-size: 10px;
+        font-weight: 500;
+        padding: 18px 30px;
+        background-color: #505cfd;
+        color: var(--white);
+        border-radius: 30px;
+        margin-left: 10px;
+        text-decoration: none;
+    }
+
+
+    /* ========== category item ========== */
+    .category-section{
+        margin: 5px;
+    }
+    .category-item{
+        padding: 20px 10px;
+        margin: 2px;
+        box-shadow: 1px 1px 15px 5px rgba(0,0,0,0.07);
+        transition: all 0.5s ease;
+    }
+    .category-item:hover{
+        background-color: var(--black-500);
+        color: var(--white);
+    }
+    .category-item:hover > h3{
+        color: var(--white);
+    }
+    .category-item:hover > p{
+        color: var(--white);
+    }
+    .category-item:hover > a{
+        color: var(--white);
+    }
+
+    .category-item .cate-icon img{
+        height: 30px;
+        width: 30px;
+    }
+    .category-item h3{
+        font-size: 15px;
+        font-weight: 700;
+        color: var(--black-500);
+        padding: 10px 0;
+    }
+    .category-item p{
+        font-size: 10px;
+        font-weight: 300;
+        color: var(--black-500);
+        padding: 5px 5px;
+        padding-bottom: 10px;
+    }
+    .category-item a{
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--black-500);
+        padding: 5px 10px;
+        text-decoration: none;
+    }
+    
+    /* ====== pricing item ======== */
+    .price-item{
+        padding: 15px 5px;
+       
+    }
+    .price-header h3{
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--black-500);
+        padding: 10px 0;
+    }
+    .price-body{
+        padding: 5px 0;
+    }
+    .price p{
+        font-size: 15px;
+        font-weight: 500;
+        color: #505cfd;
+        padding-top: 10px;
+        padding-right: 5px;
+    }
+    .price span{
+        font-size: 35px;
+        font-weight: 600;
+        color: #505cfd;
+    }
+    .price-list{
+        padding: 10px;
+        margin: 0;
+    }
+    .price-list ul li{
+        list-style: none;
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--black-300);
+        padding-bottom: 5px;
+    }
+    .price-footer a{ 
+        font-size: 12px;
+        font-weight: 500;
+        padding: 8px 30px;
+        border: 1px solid var(--main-color);
+        color: var(--black-500);
+        border-radius: 30px;
+        margin-left: 10px;
+        text-decoration: none;
+        transition: all 0.5s ease;
+        margin-bottom: 10px;
+    }
+
+    /* ========= review section ======== */
+    .review-item{
+        padding: 30px 0;
+    }
+    .review-item img{
+        height: 20px;
+        width: auto;
+    }
+    .review-item h3{
+        font-size: 25px;
+        font-weight: 400;
+        color: var(--white);
+        padding-top: 7px;
+    }
+    .review-item p{
+        font-size: 10px;
+        font-weight: 500;
+        color: var(--white);
+    }
+
+    /* ======== team section ======== */
+
+    /* ======= blog section ======== */
+    .blog-item{
+        padding: 15px 10px;
+    }
+    .blog-body .blog-title h3{
+        font-size: 15px;
+        font-weight: 500;
+        color: var(--black-500);
+        padding: 5px 0;
+     }
+     .blog-body span{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .blog-body p{
+        font-size: 12px;
+        font-weight: 300;
+        padding: 10px 0;
+    }
+    .blog-footer a{
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--black-500);
+        text-decoration: none;
+    }
+
+/* ==========  footer icons ========= */
+    .footer-icon-img{
+        padding: 20px;
+    }
+    .footer-icon-img img{
+        height: 100px;
+        width: 120px;
+        padding: 10px 0;
+        margin: 10px;
+    }
+/* ========== footer section ========== */
+        .l-item{
+            padding: 5px;
+            margin: 20px;
+            color: var(--white);
+        }
+        .l-item-header h3{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0px 0;
+        }
+        .l-item-body ul{
+            text-align: left;
+        }
+        .l-item-body ul li{
+            list-style: none;
+            font-size: 12px;
+            font-weight: 300;
+            padding: 5px 0;
+            color: var(--black-300);
+        }
+
+        .m-item-header h3{
+            font-size: 20px;
+            font-weight: 500;
+            padding: 25px 0;
+            }
+            .m-item-body ul{
+                text-align: left;
+            }
+            .m-item-body ul li{
+                list-style: none;
+                font-size: 12px;
+                font-weight: 300;
+                padding: 5px 0;
+                color: var(--black-300);
+            }
+            .sale-item img{
+                height: 60px;
+                width: 60px;
+                padding: 5px;
+            }
+            .sale-text p{
+                padding-left: 10px;
+                font-size: 11px;
+                font-weight: 300;
+                color: var(--black-300);
+            }
+
+            .sale-text span{
+                padding-left: 15px;
+                font-size: 10px;
+                font-weight: 300;
+                color: var(--black-300);
+            }
+            .lower-footer p{
+                font-size: 12px;
+                font-weight: 300;
+                color: var(--black-300);
+                padding-top: 50px;
+            }
+            .links{
+                padding-top: 50px;
+                float: right;
+            }
+            .links a{
+                font-size: 12px;
+                font-weight: 300;
+                color: var(--black-300);
+                padding-right: 15px;
+            }
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	body {
+		width: 252px;
+		padding: 48px 34px 60px;
+	}
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	body {
+		width: 436px;
+		padding: 36px 22px 48px;
+	}
+
+}
